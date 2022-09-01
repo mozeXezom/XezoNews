@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--News View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="NewsViewController" customModule="XezoNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="neonBg" translatesAutoresizingMaskIntoConstraints="NO" id="SZs-Tx-g52">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bqb-BJ-qrk">
+                                <rect key="frame" x="0.0" y="44" width="414" height="794"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="SZs-Tx-g52" secondAttribute="bottom" id="12c-jC-dgx"/>
+                            <constraint firstItem="SZs-Tx-g52" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4x9-ka-QSz"/>
+                            <constraint firstItem="SZs-Tx-g52" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="J47-sv-xBC"/>
+                            <constraint firstItem="bqb-BJ-qrk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Sib-iR-Tkx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bqb-BJ-qrk" secondAttribute="bottom" constant="24" id="ae2-dg-A0G"/>
+                            <constraint firstItem="bqb-BJ-qrk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="hpD-n1-Cv1"/>
+                            <constraint firstItem="bqb-BJ-qrk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wBn-yj-xYN"/>
+                            <constraint firstItem="SZs-Tx-g52" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zFH-Et-jAU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="newsTableView" destination="bqb-BJ-qrk" id="kpJ-TQ-kvq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="neonBg" width="675" height="1200"/>
+    </resources>
+</document>
