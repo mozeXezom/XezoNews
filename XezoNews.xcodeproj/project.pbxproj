@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA58CD7C28C2116F0028797D /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58CD7B28C2116F0028797D /* WeatherViewController.swift */; };
 		DA7EE8AE28BE292900BE412E /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7EE8AD28BE292900BE412E /* NewsListViewModel.swift */; };
 		DA7EE8B228BE2B0E00BE412E /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7EE8B028BE2B0E00BE412E /* NewsTableViewCell.swift */; };
 		DA7EE8B328BE2B0E00BE412E /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7EE8B128BE2B0E00BE412E /* NewsTableViewCell.xib */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA58CD7B28C2116F0028797D /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		DA7EE8AD28BE292900BE412E /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 		DA7EE8B028BE2B0E00BE412E /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		DA7EE8B128BE2B0E00BE412E /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				DAB1635928BD64BD00D469CE /* NewsViewController.swift */,
+				DA58CD7B28C2116F0028797D /* WeatherViewController.swift */,
 				DA7EE8B028BE2B0E00BE412E /* NewsTableViewCell.swift */,
 				DA7EE8B128BE2B0E00BE412E /* NewsTableViewCell.xib */,
 				DAB1635B28BD64BD00D469CE /* Main.storyboard */,
@@ -321,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAB1635A28BD64BD00D469CE /* NewsViewController.swift in Sources */,
+				DA58CD7C28C2116F0028797D /* WeatherViewController.swift in Sources */,
 				DA7EE8AE28BE292900BE412E /* NewsListViewModel.swift in Sources */,
 				DA7EE8B628BE2C6200BE412E /* Constans.swift in Sources */,
 				DA7EE8B228BE2B0E00BE412E /* NewsTableViewCell.swift in Sources */,
